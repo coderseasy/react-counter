@@ -1,7 +1,7 @@
 import Button from "./Button";
 import { useState } from "react";
 const Counter = (props) => {
-
+    //variables de estado
     const [contador, setContador] = useState(props.inicio);
     
     const aumentarContador = () => {
